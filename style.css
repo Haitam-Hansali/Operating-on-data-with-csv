@@ -1,0 +1,180 @@
+Body {
+    font-size:25px;
+    
+}
+
+table,  td { 
+    border: 2px solid black;
+    
+}
+.image1{
+    position:absolute ;
+    right:0px ;
+    top:0px;
+    width:0%;
+    
+}
+.image2{
+    position:absolute ;
+    right:0px ;
+    top:270px;
+    width:0%;
+    
+}
+
+.vertical_line {
+    border-left: 3px solid black;
+    height: 160px;
+    position: absolute;
+    left: 50%;
+    margin-left: -1px;
+    top: 60;
+    clear:both;
+  }
+table{ 
+    width : 48%;
+}
+
+table.style1  {
+    float:left;
+}
+
+table.style2{
+    float:right;
+}
+
+tr { 
+    text-align: center; 
+
+}
+
+th {
+    border: 2px solid black;
+    width:20%;
+}
+
+.div1 {
+    clear:both;
+}
+
+h2 {
+    font-size:20px;
+}
+
+form.f {
+    text-align:center
+}
+
+input[type=submit] {
+  background-color: black;
+  border: none;
+  color: white;
+  padding: 8px 20px;
+  text-decoration: none;
+  margin: 4px 2px;
+  font-size:10px;
+  cursor: pointer;
+  transition: 0.3s;
+  opacity: 0.6;
+  border-radius: 12px;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+input[type=submit]:hover  {
+    opacity: 1;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+    padding-right: 20px;
+}
+
+p.p1 {
+    float:left;
+    font-size:20px;
+    
+}
+
+p.p2   {
+    text-align:center;
+    text-indent:70pt;
+    font-size:20px;
+}
+
+p.p3{
+    text-align:center;
+    font-size:12px;
+    display: inline-block;
+    font-family:Arial, Helvetica, sans-serif;
+}
+.button , .b1 , .b2, .b3, .b4{
+    background-color: black;
+    border: none;
+    color: white;
+    vertical-align:middle;
+    padding: 8px 20px;
+    margin: 4px 2px;
+    font-size:10px;
+    cursor:pointer;
+    transition: 0.3s;
+    opacity: 0.6;
+    border-radius: 12px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+.button:hover,.b1:hover, .b2:hover, .b3:hover, .b4:hover {
+    opacity: 1;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+    padding-right: 20px;
+}
+
+.button  span , .b3 span , .b4 span , .b1 span, .b2 span{
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+}
+
+.button span:after ,.b3 span:after ,.b4 span:after{
+    content: '\00bb ';
+    position: relative;
+    opacity: 0;
+    top: 0;
+    left: 26px;
+    transition: 0.5s;
+  }
+.button span:after{
+    content: '\01F5B6';
+    position: relative;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+}
+
+.b1 span:after, .b2 span:after{
+    content: '\00ab';
+    position: relative;
+    opacity: 0;
+    top: 0;
+    left: -40px;
+    transition: 0.5s;
+}
+  
+.button:hover span , .b3:hover span, .b4:hover span{
+    padding-right: 25px;
+}
+
+.b1:hover span, .b2:hover span {
+    padding-left: 25px;
+}
+
+.button:hover span:after , .b3:hover span:after, .b4:hover span:after, .b1:hover span:after, .b2:hover span:after{
+    opacity: 1;
+    right: 0;
+}
+.b1 , .b4 {
+    margin-left:10px;
+    margin-right:10px;
+}
+.b3 {
+    margin-left:25px;
+}
+.b2 {
+    margin-right:20px;
+}
